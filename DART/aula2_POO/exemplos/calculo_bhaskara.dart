@@ -1,5 +1,5 @@
 import 'dart:math';
-
+//Código autalizado em sala - 11/08/2022
 class EquacaoSegundoGrau {
   double a = 0;
   double b = 0;
