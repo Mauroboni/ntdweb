@@ -1,10 +1,7 @@
 
 abstract class Animal {}
-
 abstract class Mammal extends Animal {}
-
 abstract class Bird extends Animal {}
-
 abstract class Fish extends Animal {}
 
 abstract class Walker {
@@ -38,17 +35,11 @@ abstract class Flyer {
 }
 
 class Dolphin extends Mammal with Swimmer {}
-
 class Bat extends Mammal with Walker, Flyer {}
-
 class Cat extends Mammal with Walker {}
-
 class Dove extends Bird with Walker, Flyer {}
-
 class Duck extends Bird with Walker, Swimmer, Flyer {}
-
 class Shark extends Fish with Swimmer {}
-
 class FlyingFish extends Fish with Swimmer, Flyer {}
 //view rawmixin_animals_full.dart hosted with ❤ by GitHub
 
